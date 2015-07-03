@@ -31,7 +31,6 @@ public class DebtFragment extends Fragment {
         b.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it= new Intent(Intent.ACTION_PICK,  Contacts.CONTENT_URI);
-                int i =0;
                 startActivityForResult(it, PICK_CONTACT);
 
             }
