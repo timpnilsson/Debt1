@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Debt Collector</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="payOrPaid">
+        <item>I should pay recipients</item>
+        <item>Recipient(s) should pay me</item>
+    </string-array>
+</resources>
